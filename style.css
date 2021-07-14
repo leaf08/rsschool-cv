@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    background-color: #000000;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+
+    background-color: #000000;
+}
+
+.header__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__title h1,
+.header__title h2 {
+    color: #ffffff;
+}
+
+ul {
+    margin: 10px 20px;
+    list-style-type: square;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.main {
+    padding: 25px;
+
+    background: linear-gradient(0, #ffffff, #000000);
+}
+
+.main section {
+    padding: 10px 0;
+}
+
+.example-code {
+    margin-bottom: 10px;
+}
+
+section pre {
+    padding: 16px;
+    background-color: #f0f0f0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyrigth span,
+.copyrigth span time {
+    color: #000000;
+}
+
+.copyrigth {
+    text-align: right;
+}
+
+.github {
+    text-align: center;
+}
+
+.rolling-scopes-school {
+    width: 33%;
+    text-align: left;
+}
+
+.rolling-scopes-school img {
+    max-width: 100%;
+}
