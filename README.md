@@ -1,1 +1,1 @@
-https://leaf08.github.io/rsschool-cv/cv
+https://leaf08.github.io/rsschool-cv/
